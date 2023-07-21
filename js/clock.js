@@ -19,14 +19,11 @@ function getDay() {
     const date = new Date();
     const week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     const dayOfWeek = week[date.getDay() - 1];
-    console.log(dayOfWeek);
     
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July','August', 'September', 'October', 'November', 'December']
     const whatMonth = months[date.getMonth()];
-    console.log(whatMonth);
 
     const dayOfMonth = String(date.getDate());
-    console.log(dayOfMonth);
 
     theDay.innerText = `${whatMonth} ${dayOfMonth}, ${dayOfWeek}`
 }
