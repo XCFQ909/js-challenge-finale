@@ -45,7 +45,6 @@ function handleToDoSubmit(event) {
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
 
-
 const savedToDos = localStorage.getItem("todos");
 if (savedToDos !== null) {
     const parsedToDos = JSON.parse(savedToDos)
