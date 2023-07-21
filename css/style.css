@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 #bgImage {
@@ -61,4 +62,15 @@ body {
 #weather span {
     margin-bottom: 5px;
     text-shadow: var(--shadow);
+}
+
+#quote {
+    position: absolute;
+    bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 22px;
+    text-shadow: var(--shadow);
+    opacity: 0.8;
 }
