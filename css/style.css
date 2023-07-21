@@ -49,3 +49,16 @@ body {
     font-weight: 500;
     text-shadow: var(--shadow);
 }
+
+#weather {
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+
+    display: flex;
+    flex-direction: column;
+}
+#weather span {
+    margin-bottom: 5px;
+    text-shadow: var(--shadow);
+}
