@@ -24,28 +24,29 @@ body {
     z-index: -1;
 }
 
+.time-div {
+    position: relative;
+    top: -100px;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
 #theTime {
-    position: absolute;
     font-size: 85px;
     font-weight: 700;
-    top: 30vh;
-    left: 40vw;
     text-shadow: var(--shadow);
 }
 
 #seconds {
-    position: absolute;
     font-size: 55px;
     font-weight: 500;
-    top: 32vh;
-    left: 59vw;
     text-shadow: var(--shadow);
 }
 
 #whatDay {
     position: absolute;
     top: 24vh;
-    left: 41vw;
     font-size: 40px;
     font-weight: 500;
     text-shadow: var(--shadow);
